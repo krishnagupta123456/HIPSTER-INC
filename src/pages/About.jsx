@@ -4,7 +4,9 @@ import { useTheme } from '../context/ThemeContext';
 const About = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <div className={`${theme === 'theme1' ? ' text-black md:p-6 p-2' : `${theme === 'theme2' ? 'bg-gray-800 md:p-6 p-2 text-white' : `${theme === 'theme3' ? ' bg-pink-50 md:p-6 p-2' : ''}`} `}`}>
+    <div value={theme}
+      onChange={(e) => setTheme(e.target.value)}
+      className={`${theme === 'theme1' ? ' text-black md:p-6 p-2' : `${theme === 'theme2' ? 'bg-gray-800 md:p-6 p-2 text-white' : `${theme === 'theme3' ? ' bg-pink-50 md:p-6 p-2' : ''}`} `}`}>
       <div>
         <h2 className="text-4xl font-bold text-center  text-green-600 mb-3">About Us</h2>
 
