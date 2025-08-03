@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Project Clone
 
 1. Clone the project in your local directory
@@ -28,3 +29,6 @@ src/
 ├── App.css            # Global styles
 ├── index.js           # React entry point
 ├── tailwind.config.js # Tailwind configuration
+=======
+# HIPSTER-INC
+>>>>>>> bad446605099153f59b5127bed88ad3d12ed4ef2
